@@ -467,6 +467,10 @@
 .fa-arrow-left:before {
   content: "\f060";
 }
+.fa-arrow-left:hover {
+  content: "\f060";
+  color: #eee;
+}
 .fa-arrow-right:before {
   content: "\f061";
 }

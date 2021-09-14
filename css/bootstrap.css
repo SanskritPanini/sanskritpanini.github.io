@@ -827,6 +827,7 @@ pre code {
 .col-md-4,
 .col-md-5,
 .col-md-6,
+.col-md-6a,
 .col-md-7,
 .col-md-8,
 .col-md-9,
@@ -1182,6 +1183,9 @@ pre code {
   }
   .col-md-pull-8 {
     right: 66.66666666666666%;
+  }
+  .col-md-pull-8a {
+    right: 33.33333333333333%;
   }
   .col-md-pull-9 {
     right: 75%;

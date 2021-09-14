@@ -709,6 +709,128 @@ header .ownmenuclick li > .megamenu li a:hover {
 header nav .ownmenuclick .indicator {
 	display: none;
 }
+
+/* White */
+.white {
+	background-color: #F2F2F2;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-bottom: 0px;
+}
+
+.white h3 {
+	color: #4e4e4e;
+	font-weight: 400;
+	margin-bottom: 35px;
+}
+
+.white p {
+	color: #4e4e4e;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.centered {
+    text-align: center;
+}
+
+code.example-code {
+	max-height: 325px;
+	overflow: scroll;
+}
+
+/* nt-example2 */
+
+#nt-example2 {
+	max-width: 620px;
+	margin: auto;
+}
+
+#nt-example2-container {
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height: 300px;
+}
+
+#nt-example2-container1 {
+	text-align: center;
+	margin-top: 107px;
+	margin-bottom: 40px;
+	max-width: 100px;
+	height: 300px;
+}
+
+#nt-example2-container i {
+	font-size: 36px;
+	margin: 8px;
+	cursor: pointer;
+	-webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+#nt-example2-container i:hover {
+	color: #5a5a5a;
+}
+
+#nt-example2 li {
+	color: #000;
+	background: #ccc;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 60px;
+	padding: 10px 16px 10px 16px;
+	line-height: 40px;
+	list-style: none;
+	font-size: 24px;
+	text-align: left;
+}
+
+#nt-example2 li .state {
+	font-size: inherit;
+	margin: 0;
+}
+
+#nt-example2 span.hour {
+	font-weight: 700;
+}
+
+#nt-example2-infos-triangle {
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 0 15px 16px 15px;
+	border-color: transparent transparent #3b3b3b transparent;
+	margin: 6px auto 0;
+}
+
+#nt-example2-infos {
+	max-width: 620px;
+	margin: auto;
+	padding: 12px;
+	color: #f2f2f3;
+	background: #3b3b3b;
+}
+
+#nt-example2-infos .infos-hour {
+	font-size: 30px;
+	font-weight: 700;
+	margin-top: 12px;
+}
+
+#nt-example2-infos h4 {
+	color: #F2F2F2;
+	font-weight: 500;
+}
+
+#nt-example2-infos .infos-text {
+	text-align: left;
+}
+
 /* 
  *  Owl Carousel - Animate Plugin
  */
