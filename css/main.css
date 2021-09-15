@@ -786,7 +786,7 @@ code.example-code {
 	padding: 10px 16px 10px 16px;
 	line-height: 40px;
 	list-style: none;
-	font-size: 24px;
+	font-size: 20px;
 	text-align: left;
 }
 
@@ -817,7 +817,7 @@ code.example-code {
 }
 
 #nt-example2-infos .infos-hour {
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: 700;
 	margin-top: 12px;
 }
