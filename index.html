@@ -49,7 +49,7 @@
         <a href="index.html">
           <svg height="60" width="500">
             <text x="15" y="50" fill="black" font="bold"> 
-              Word Segmentation & Morphological Parsing in Sanskrit 
+              Word Segmentation & Morphological Parsing for Sanskrit 
             </text>
           </svg>
         </a>
@@ -231,23 +231,16 @@
     </section>
     
     
-    <div class="sectoion-55px x">
+    <div class="sectoion-0px x">
       <div class="container1">
-        <div class="post-details1">
-          <blockquote1>
-            <div class="tittle2">
-              <h4>Recent Updates</h4>
-            </div>
-          </blockquote1>
         </div>
-        <br>
         <div class="row">
           <div class="col-md-12 col-md-push-0 centered mild-gray-bg">
-<!--                    <div class="col-md-6a col-md-pull-8a centered medium-gray-bg">-->
-<!--                        <p> RECENT UPDATES </p>-->
-<!--                      <pre><code class="language-javascript example-code"> RECENT UPDATES </code></pre>-->
-<!--                    </div>-->
             <div id="nt-example2-container">
+            <div class="center">
+              <div class="tittle2">
+                <h4>Recent Updates</h4>
+              </div>
               <ul id="nt-example2">
                 <li data-infos="The Online Portal for the Hackathon on 'Word Segmentation and Morphological Parsing for Sanskrit' will be opened on September 25, 2021. The platform for the hackathon is Codalab.">
                   <i class="fa fa-fw fa-play state"></i>
@@ -263,7 +256,7 @@
                 </li>
                 <li data-infos="FIRE (Forum for Information Retrieval Evaluation '21) Committee members decided to organize a hackathon on Word Segmentation and Morphological Parsing for Sanskrit along with FIRE conference.">
                   <i class="fa fa-fw fa-play state"></i>
-                  <span class="hour">Aug 13</span> WSMP is a Hackathon
+                  <span class="hour">Aug 13</span> Hackathon for WSMP with FIRE conference
                 </li>
               </ul>
               <div id="nt-example2-infos-container">
@@ -279,6 +272,7 @@
                   </div>
                 </div>
               </div>
+            </div>
             </div>
           </div>
         </div>
@@ -322,17 +316,17 @@
           <li class="col-sm-4"> 
 <!--            <img class="img-responsive" src="images/about-img-1.jpg" alt="" >-->
             <h6 class="margin-top-20">Task 1</h6>
-            <p><strong>Word Segmentation:</strong> The writings in Sanskrit follow a structured scheme where the words often undergo phonetic transformations at the juncture of their boundaries, thus modifying the phonemes at these boundaries and also obscuring the original boundaries. This process of euphonic assimilation or joining of the words is known as <em>Sandhi</em> and the splitting or segmentation of such joint word forms is known as <em>Sandhi-Viccheda</em>. While <em>Sandhi</em> is deterministic, <em>Sandhi-Viccheda</em> is not. It is desirable to identify the individual words in a sentence and obtain the semantically most valid split of the sentence for subsequent processing in downstream tasks.</p>
+            <p><strong>Word Segmentation:</strong> The writings in Sanskrit follow a structured scheme where the words often undergo phonetic transformations at the juncture of their boundaries, thus modifying the phonemes at these boundaries and also obscuring the original boundaries. This process of joining of the words is known as <em>Sandhi</em> and the splitting or segmentation of such joint word forms is known as <em>Sandhi-Viccheda</em>. While <em>Sandhi</em> is deterministic, <em>Sandhi-Viccheda</em> is not. It is desirable to identify the individual words in a sentence and obtain the semantically most valid split of the sentence for subsequent processing in downstream tasks.</p>
           </li>
           <li class="col-sm-4"> 
 <!--            <img class="img-responsive" src="images/about-img-2.jpg" alt="" >-->
             <h6 class="margin-top-20">Task 2</h6>
-            <p><strong>Morphological Parsing:</strong> Sanskrit is a morphologically rich fusional language, and morphology plays a crucial role in carrying the grammatical information encoded in a sentence. However, this is a challenging task due to the prevalence of syncretism and homonymy expressed by the  words in a sentence. Whether it be constituency parsing of the compound words or dependency parsing of the entire sentence or for further discourse analysis, it is desirable to obtain the morphological analyses of each of the words in a sentence. A word is formed by the combination of preverbs, stem and suffixes. The suffixes denote the morphological category of the word. The information regarding the grammatical role played by a word in a sentence is latent in the morphological category of the word. Thus morphological parsing helps in finding out these morphemes of the word. This task focuses on predicting the morphological tags for each of the words in a given sentence.</p>
+            <p><strong>Morphological Parsing:</strong> Sanskrit is a morphologically rich fusional language, and morphology plays a crucial role in carrying the grammatical information encoded in a sentence. However, this is a challenging task due to the prevalence of syncretism and homonymy expressed by the words. <!--Whether it be constituency parsing of the compound words or dependency parsing of the entire sentence or for further discourse analysis, i--> A word is formed by the combination of preverb(s), stem(s) and suffixes. The suffixes denote the morphological category of the word. The information regarding the grammatical role played by a word in a sentence is latent in the morphological category of the word. <!--Thus morphological parsing helps in finding out these morphemes of the word.--> This task focuses on predicting the morphological tags for each of the words in a given sentence.</p>
           </li>
           <li class="col-sm-4"> 
 <!--            <img class="img-responsive" src="images/about-img-3.jpg" alt="" >-->
             <h6 class="margin-top-20">Task 3</h6>
-            <p><strong>Combined Word Segmentation and Morphological Parsing:</strong> The writings in Sanskrit follow a structured scheme where the words often undergo phonetic transformations at the juncture of their boundaries, thus modifying the phonemes at these boundaries and also obscuring the original boundaries. This process of euphonic assimilation or joining of the words is known as <em>Sandhi</em> and the splitting or segmentation of such joint word forms is known as <em>Sandhi-Viccheda</em>. While <em>Sandhi</em> is deterministic, <em>Sandhi-Viccheda</em> is not. It is desirable to identify the individual words in a sentence and obtain the semantically most valid split of the sentence for subsequent processing in downstream tasks.</p>
+            <p><strong>Combined Word Segmentation and Morphological Parsing:</strong> Given the sequential dependency between the aforementioned tasks, we encourage a joint or pipeline based formulation, by combining Tasks 1 and 2. If a pipeline structure is deployed, then the segmented form of the sentence from the Word Segmentation should be fed to the Morphological Parser. On the other hand, one participating team may model both the tasks jointly. There are interdependencies with both the tasks, and joint modelling of such related tasks is preferable over a pipeline-based approach. So, both the segmented forms and the morphological tags are to be predicted.</p>
           </li>
         </ul>
       </div>
@@ -430,18 +424,6 @@
         </div>
       </div>
     </section>
-    
-<!--    <section class="footer-up">-->
-<!--      <div class="col-sm-15">-->
-<!--        <div class="contact_info"> <!--<i class="ion-map"></i>-->
-<!--          <p> <strong> CONTACT INFO </strong> <br><br>-->
-<!--            Sriram Krishnan - sriramk8<!----><!--@<!-- --><!--gmail<!-- --><!--.com <br>-->
-<!--            Amrith Krishna - ak2329<!----><!--@<!-- --><!--cam.ac<!-- --><!--.uk <br>-->
-<!--            Pawan Goyal - pawang<!-- --><!--@<!-- --><!--cse<!-- --><!--.iitkgp<!-- --><!--.ac<!-- --><!--.in-->
-<!--          </p>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </section>-->
   </div>
 </div>
 <!-- Wrap End --> 

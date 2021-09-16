@@ -206,8 +206,7 @@ a1 {
 .mild-gray-bg {
 	background: #eee;
 }
-/
-*=======================================================
+/*=======================================================
       SECTION
 ========================================================*/
 section {
@@ -433,7 +432,9 @@ hr {
 ========================================================*/
 .sectoion-50px {
 	padding: 50px 0;
-/*	background: #aaa;*/
+}
+.sectoion-0px {
+	padding: 0px 0;
 }
 .sectoion-55px {
 	padding: 50px 50px;
@@ -447,9 +448,11 @@ hr {
 	padding: 25px 0;
 	background: #eee;
 }
+.sectoion-15px {
+	padding: 15px 0;
+}
 .sectoion-60px {
 	padding: 40px 0;
-/*	background: #aaa;*/
 }
 /*=======================================================
       HEADER
@@ -550,15 +553,15 @@ header.main-header nav .ownmenu li {
 .content {
 	background: #ffffff;
 }
-.position-center-center {
-	left: 50%;
-	position: absolute;
-	top: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-}
+/*.position-center-center {*/
+/*	left: 50%;*/
+/*	position: absolute;*/
+/*	top: 50%;*/
+/*	-webkit-transform: translate(-50%, -50%);*/
+/*	-moz-transform: translate(-50%, -50%);*/
+/*	-ms-transform: translate(-50%, -50%);*/
+/*	transform: translate(-50%, -50%);*/
+/*}*/
 /*=======================================================
       SUB BANNER
 ========================================================*/
@@ -577,6 +580,8 @@ header.main-header nav .ownmenu li {
 	position: absolute;
 	top: 50%;
 	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);
 	display: inline-block;
@@ -1447,7 +1452,8 @@ header.main-header nav .ownmenu li {
 .our-blog {
 }
 .our-blog .blog-in {
-	padding-left: 120px;
+/*	padding-left: 120px;*//*Commented to check for padding in mobile devices*/
+	left: 50%
 }
 .our-blog .blog-in .blog-up-sec {
 	position: relative;
@@ -1791,12 +1797,12 @@ header.main-header nav .ownmenu li {
 	color: #fff;
 }
 .row .col-sm-4 p {
-	text-align: center;
-	padding: 0px;
+	text-align: justify;
+	padding: 10px;
 	color: #000;
 }
 .footer-up .work {
-	min-height: 220px;
+	min-height: 250px;
 	background: #3c3c3c;
 	text-transform: normal;
 	position: relative:
@@ -1827,7 +1833,7 @@ header.main-header nav .ownmenu li {
 	text-transform: none;
 }
 .footer-up .contact {
-	min-height: 220px;
+	min-height: 250px;
 	background: #787878;
 	text-transform: normal;
 	position: relative;
@@ -2301,7 +2307,7 @@ footer .social_icons li a {
 }
 .post-details1 {
 	background: #eee;
-	padding-top: 25px;
+	padding-bottom: 0px;
 }
 .our-blog.blog-page .post-details p {
 	font-size: 17px;
@@ -2327,7 +2333,7 @@ footer .social_icons li a {
 .post-details1 blockquote1 {
 	border: none;
 	color: #444444;
-	padding: 0px;
+	padding-bottom: 0px;
 	background: #fff;
 	font-size: 14px;
 	font-style: bold;

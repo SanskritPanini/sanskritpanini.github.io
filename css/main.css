@@ -748,8 +748,8 @@ code.example-code {
 
 #nt-example2-container {
 	text-align: center;
-	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-top: 40px;
+	margin-bottom: 40px;
 	height: 300px;
 }
 
@@ -759,6 +759,17 @@ code.example-code {
 	margin-bottom: 40px;
 	max-width: 100px;
 	height: 300px;
+}
+
+#nt-example2-container .center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	display: inline-block;
 }
 
 #nt-example2-container i {
