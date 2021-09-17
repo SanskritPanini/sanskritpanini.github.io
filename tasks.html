@@ -38,15 +38,22 @@
 <div id="wrap">
   <div id="main-wrapper">
     <header class="main-header">
-      <div class="container">
+      <div class="container-fuild">
         <div class="logo">
           <a href="index.html"> <img src="images/hackathon/logo/logo.png" alt="WSMP Logo" width="30" height="30"></a>
         </div>
-        <a href="index.html">
-          <svg height="60" width="500">
-            <text x="15" y="50" fill="black" font="bold"> Word Segmentation & Morphological Parsing for Sanskrit </text>
-          </svg>
-        </a>
+        <div class="logo">
+          <a href="index.html">
+          <h4>
+            Word Segmentation & Morphological Parsing for Sanskrit
+          </h4>
+          </a>
+        </div>
+<!--        <a href="index.html">-->
+<!--          <svg height="60" width="500">-->
+<!--            <text x="0" y="50" fill="black" font="bold"> Word Segmentation & Morphological Parsing for Sanskrit </text>-->
+<!--          </svg>-->
+<!--        </a>-->
         <!-- Nav -->
         <nav>
           <ul id="ownmenu" class="ownmenu">
@@ -93,9 +100,9 @@ For instance, the sentence <strong><em>r&amacr;mah&#803; vanam gacchati</em></st
 
 There is another kind of <strong><em>Sandhi</em></strong> found between components of compounds where two or more stems join to form a compound word. For instance, <strong><em>r&amacr;m&amacr;layah&#803;</em></strong> is a compound word formed from the components <strong><em>r&amacr;ma</em></strong> and <strong><em>&amacr;layah&#803;</em></strong>. Resolving <strong><em>Sandhi</em></strong> within compounds is essential as the knowledge of the individual components of a compound will also help in its analysis in the downstream tasks <cite>[Krishna et al., 2021]</cite>. And Sanskrit being rich in multicomponent compound constructions, the analysis of the sentence would majorly require the analysis of the individual components of the compounds present in the sentence. <br><br>
 
-Another major challenge for this task owes to the number of segmentations possible for a given sentence, allowing non-determinism right at the start of the linguistic analysis. According to the <a href="https://sanskrit.inria.fr/DICO/reader.fr.html">Sanskrit Heritage Reader(SHR)</a>, there are 4 possible segmentations for the sequence <strong><em>r&amacr;movana&#7749;gacchati</em></strong>, and the two-component compound <strong><em>r&amacr;m&amacr;layah&#803;</em></strong> has 20 possible segmentations. This is mainly due to the non-deterministic combinations of the phonemes and additionally due to the multiple morphological analyses for a given word. <br><br>
+Another major challenge for this task owes to the number of segmentations possible for a given sentence, allowing non-determinism right at the start of the linguistic analysis. According to the <a href="https://sanskrit.inria.fr/DICO/reader.fr.html">Sanskrit Heritage Reader(SHR)</a>, there are <a href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?lex=SH&st=t&us=f&font=roma&text=raamovanafgacchati&t=VH&topic=&mode=g&corpmode=&corpdir=&sentno=">4 possible segmentations</a> for the sequence <strong><em>r&amacr;movana&#7749;gacchati</em></strong>, and the two-component compound <strong><em>r&amacr;m&amacr;layah&#803;</em></strong> has <a href="https://sanskrit.inria.fr/cgi-bin/SKT/sktgraph.cgi?lex=SH&st=t&us=f&font=roma&text=raamaalaya.h&t=VH&topic=&mode=g&corpmode=&corpdir=&sentno=">20 possible segmentations</a>. This is mainly due to the non-deterministic combinations of the phonemes and additionally due to the multiple morphological analyses for a given word. <br><br>
 
-Thus, the requirement of this task is to predict the correct segmentation of the given sequence. The participants will be provided with the unsegmented sentences (at least 100,000) along with their corresponding ground truth segmentation. The sentences have been taken from the <a href="http://www.sanskrit-linguistics.org/dcs/">Digital Corpus of Sanskrit(DCS)</a>.<br> </p1><br>
+Thus, the requirement of this task is to predict the correct segmentation of the given sequence. The participants will be provided with the unsegmented sentences (at least 100,000) along with their corresponding ground truth segmentation and morphological tags. The sentences have been taken from the <a href="http://www.sanskrit-linguistics.org/dcs/">Digital Corpus of Sanskrit(DCS)</a>.<br> </p1><br>
                 <blockquote>
                 <h8><strong>Related Literature:<br></strong></h8>
                 <ul class="a">
@@ -147,8 +154,10 @@ Since there is limited restriction in the movement of words within a sentence, t
 
 This task focuses on obtaining the correct stem and the morphological tag of the inflected forms in a sentence. Given a sentence of segmented words, each word should be annotated with the following parameters: <br>
 
-a. stem
-b. morphological tag (this is a list of tags proposed by the Sanskrit Heritage Reader, and the comparison with other available tags along with denotations of each tag is available<a href="https://sanskritlibrary.org/helpmorphids.html"> here.</a>
+a. stem <br>
+b. morphological tag (this is obtained from the list of tags proposed by the Sanskrit Heritage Reader)<br>
+
+The comparison with other available tags along with denotations of each tag is available <a href="https://sanskritlibrary.org/helpmorphids.html">here.</a><br><br>
 
 <!--a. word form<br>-->
 <!--b. base stem<br>-->
@@ -189,7 +198,7 @@ The requirement of this task is to predict the stems and morphological tags give
 <!-- Post -->
             <div class="blog-in"> 
               <!-- Post Detail --> 
-              <span> <h8><strong>Task 3</strong> </h8> </span> <h7> <strong>Word Segmentation and Morphological Parsing</strong> </h7>
+              <span> <h8><strong>Task 3</strong> </h8> </span> <h7> <strong>Combined Word Segmentation and Morphological Parsing for Sanskrit</strong> </h7>
 
               <div class="post-details">
               

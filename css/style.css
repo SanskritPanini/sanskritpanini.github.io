@@ -106,10 +106,10 @@ h9 {
 	font-family: 'lucida-console';
 }
 h7 {
-	font-size: 36px;
+	font-size: 25px;
 }
 h8 {
-	font-size: 20px;
+	font-size: 18px;
 }
 p1 {
 	color: #151515;
@@ -246,6 +246,13 @@ section.x {
 	color: #fff;
 	background: none;
 	border: 2px solid #fff;
+}
+.btn-black {
+	color: #000;
+	background: none;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 2px solid #000;
 }
 .btn-white:hover {
 	background: #fff;
@@ -409,6 +416,19 @@ hr {
 }
 .bg-gray-light {
 	background: #fbfbfb !important;
+
+}
+.logo h4 {
+	text-align: center;
+	line-height: 16px;
+	font-size: 16px;
+	height: 15px;
+}
+.logo h5 {
+	text-align: center;
+	line-height: 10px;
+	font-size: 10px;
+	height: 10px;
 }
 /*=======================================================
       TOP BAR
@@ -435,6 +455,7 @@ hr {
 }
 .sectoion-0px {
 	padding: 0px 0;
+/*	background: #aaa;*/
 }
 .sectoion-55px {
 	padding: 50px 50px;
@@ -553,15 +574,15 @@ header.main-header nav .ownmenu li {
 .content {
 	background: #ffffff;
 }
-/*.position-center-center {*/
-/*	left: 50%;*/
-/*	position: absolute;*/
-/*	top: 50%;*/
-/*	-webkit-transform: translate(-50%, -50%);*/
-/*	-moz-transform: translate(-50%, -50%);*/
-/*	-ms-transform: translate(-50%, -50%);*/
-/*	transform: translate(-50%, -50%);*/
-/*}*/
+.position-center-center {
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
 /*=======================================================
       SUB BANNER
 ========================================================*/
@@ -590,7 +611,7 @@ header.main-header nav .ownmenu li {
 	color: #fff;
 	text-transform: none;
 	letter-spacing: 6px;
-	font-size: 40px;
+	font-size: 32px;
 	font-family: 'montserratbold';
 	text-transform: uppercase;
 	margin: 0px;
@@ -1490,7 +1511,7 @@ header.main-header nav .ownmenu li {
 	width: 100%;
 	font-size: 11px;
 	color: #666666;
-	margin-top: 20px;
+	margin-top: 10px;
 	text-transform: uppercase;
 	display: inline-block;
 	margin-bottom: 10px;
@@ -1500,7 +1521,7 @@ header.main-header nav .ownmenu li {
 	text-transform: uppercase;
 	color: #222222;
 	line-height: 28px;
-	margin-bottom: 15px;
+	margin-bottom: 5px;
 	display: inline-block;
 	width: 100%;
 }
@@ -1509,7 +1530,7 @@ header.main-header nav .ownmenu li {
 	padding-bottom: 10px;
 }
 .our-blog.blog-page .blog-in {
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 /*=======================================================
       Tastimonial
@@ -1789,6 +1810,9 @@ header.main-header nav .ownmenu li {
 }
 .row .col-sm-12 {
 	text-align: center;
+	padding: 0px;
+}
+.row .col-sm-20 {
 	padding: 0px;
 }
 .row .col-sm-4 {
@@ -2243,7 +2267,7 @@ footer .social_icons li a {
 	border: none;
 	margin-left: 50px;
 	background: #f3f3f3;
-	padding: 40px;
+	padding: 20px;
 	color: #999999;
 	line-height: 26px;
 }
@@ -2322,12 +2346,13 @@ footer .social_icons li a {
 .post-details blockquote {
 	border: none;
 	color: #444444;
-	padding: 40px;
+	padding: 20px;
 	background: #f2f2f2;
 	font-size: 14px;
 	font-style: italic;
 	line-height: 32px;
 	font-weight: 400;
+	text-align: justify;
 	font-family: 'Droid Serif', serif;
 }
 .post-details1 blockquote1 {
