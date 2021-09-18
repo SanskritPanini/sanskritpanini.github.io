@@ -404,12 +404,16 @@ hr {
 	font-size: 15px;
 	font-family: 'Droid Serif', serif;
 	line-height: 28px;
+	text-align: justify;
+	text-align-last: center;
 }
 .tittle2 p1 {
 	color: #ddd;
 	font-size: 15px;
 	font-family: 'Droid Serif', serif;
 	line-height: 28px;
+	text-align: justify;
+	text-align-last: center;
 }
 .bg-white {
 	background: #fff !important;
@@ -420,15 +424,15 @@ hr {
 }
 .logo h4 {
 	text-align: center;
-	line-height: 16px;
-	font-size: 16px;
+	line-height: 12px;
+	font-size: 12px;
 	height: 15px;
 }
 .logo h5 {
 	text-align: center;
-	line-height: 10px;
-	font-size: 10px;
-	height: 10px;
+	line-height: 12px;
+	font-size: 12px;
+	height: 12px;
 }
 /*=======================================================
       TOP BAR
@@ -1068,7 +1072,7 @@ header.main-header nav .ownmenu li {
 	border-bottom: 1px solid #333;
 }
 .port-folio-row li {
-	padding: 0px;
+	padding: 10px;
 	position: relative;
 	overflow: hidden;
 }
@@ -1250,8 +1254,9 @@ header.main-header nav .ownmenu li {
 .folio-detail .social_icons li a {
 	height: 48px;
 	width: 48px;
-	border: 1px solid #333;
+	border: 0px solid #333;
 	color: #333;
+	padding: 5px;
 	line-height: 46px;
 }
 .up-links {
@@ -1332,7 +1337,7 @@ header.main-header nav .ownmenu li {
 	margin-top: 30px;
 }
 .team ul li .social_icons li a {
-	border: 1px solid #333333;
+	border: 0px solid #333333;
 	color: #333333;
 	line-height: 38px;
 }
@@ -1817,17 +1822,19 @@ header.main-header nav .ownmenu li {
 }
 .row .col-sm-4 {
 	text-align: center;
-	padding: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
 	color: #fff;
 }
 .row .col-sm-4 p {
 	text-align: justify;
-	padding: 10px;
+	text-align-last: center;
+	padding: 20px;
 	color: #000;
 }
 .footer-up .work {
 	min-height: 250px;
-	background: #3c3c3c;
+	background: #333;
 	text-transform: normal;
 	position: relative:
 }
@@ -1858,7 +1865,7 @@ header.main-header nav .ownmenu li {
 }
 .footer-up .contact {
 	min-height: 250px;
-	background: #787878;
+	background: #ddd;
 	text-transform: normal;
 	position: relative;
 }
@@ -1876,6 +1883,11 @@ header.main-header nav .ownmenu li {
 }
 .footer-up p {
 	color: #fff;
+	letter-spacing: 2.5px;
+}
+.footer-up .contact p1 {
+	color: #000;
+	font-size: 14px;
 	letter-spacing: 2.5px;
 }
 .footer-up p1 {
@@ -2130,13 +2142,15 @@ footer .social_icons li a {
 .contact-page .contct-info ul {
 	margin-top: 30px;
 }
-.contact-page .contct-info .media-heading {
-	font-size: 23px;
+.contact-page .contct-info .media-body h9 {
+	font-size: 18px;
 	margin-top: 10px;
 	margin-bottom: 15px;
+	font-family: 'Droid Serif', serif;
 }
 .contact-page .contct-info .media-body p {
 	font-size: 16px;
+	font-family: 'Droid Serif', serif;
 }
 .contact-page .contct-info p {
 	line-height: 32px;
@@ -2600,7 +2614,7 @@ footer .social_icons li a {
 	border-radius: 50%;
 	text-align: center;
 	color: #696969;
-	border: 1px solid #f5f5f5;
+	border: 0px solid #f5f5f5;
 	margin-right: 5px;
 }
 .social_icons a:hover i {
@@ -2631,8 +2645,8 @@ footer .social_icons li a {
 }
 .social_icons .facebook a:hover {
 	color: #fff;
-	background-color: #3b5a9b;
-	border-color: #3b5a9b;
+	background-color: #ddd;
+	border-color: #aaa;
 }
 .social_icons .flickr a:hover {
 	color: #fff;
@@ -2651,8 +2665,8 @@ footer .social_icons li a {
 }
 .social_icons .instagram a:hover {
 	color: #fff;
-	background-color: #507ea4;
-	border-color: #507ea4;
+	background-color: #ddd;
+	border-color: #aaa;
 }
 .social_icons .lastfm a:hover {
 	color: #fff;
@@ -2661,8 +2675,8 @@ footer .social_icons li a {
 }
 .social_icons .linkedin a:hover {
 	color: #fff;
-	background-color: #0072b2;
-	border-color: #0072b2;
+	background-color: #ddd;
+	border-color: #aaa;
 }
 .social_icons .paypal a:hover {
 	color: #fff;
@@ -2696,8 +2710,8 @@ footer .social_icons li a {
 }
 .social_icons .twitter a:hover {
 	color: #fff;
-	background-color: #2baae1;
-	border-color: #2baae1;
+	background-color: #ddd;
+	border-color: #aaa;
 }
 .social_icons .vimeo a:hover {
 	color: #fff;
